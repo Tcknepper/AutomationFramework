@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Validating Homepage(failed)">
+    <classes>
+      <class name="AutomationFrameworkProject.HomePage">
+        <methods>
+          <include name="teardown"/>
+          <include name="initialize"/>
+          <include name="verifySearchSuggestions" invocation-numbers="3"/>
+          <include name="cleanUp"/>
+        </methods>
+      </class> <!-- AutomationFrameworkProject.HomePage -->
+    </classes>
+  </test> <!-- Validating Homepage(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-04T13:29:56 EST" name="Suite" finished-at="2022-03-04T13:31:25 EST" duration-ms="89126">
+    <groups>
+    </groups>
+    <test started-at="2022-03-04T13:29:56 EST" name="Validating Contact Us" finished-at="2022-03-04T13:30:27 EST" duration-ms="31649">
+      <class name="AutomationFrameworkProject.ContactUs">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationFrameworkProject.ContactUs@31e3250d]" started-at="2022-03-04T13:29:56 EST" name="initialize" finished-at="2022-03-04T13:29:58 EST" duration-ms="2152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyContactOptions()[pri:0, instance:AutomationFrameworkProject.ContactUs@31e3250d]" started-at="2022-03-04T13:29:58 EST" name="verifyContactOptions" finished-at="2022-03-04T13:30:22 EST" duration-ms="23995" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyContactOptions -->
+        <test-method signature="verifyReferenceOptions()[pri:0, instance:AutomationFrameworkProject.ContactUs@31e3250d]" started-at="2022-03-04T13:30:22 EST" name="verifyReferenceOptions" finished-at="2022-03-04T13:30:27 EST" depends-on-methods="AutomationFrameworkProject.ContactUs.verifyContactOptions" duration-ms="5297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReferenceOptions -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:AutomationFrameworkProject.ContactUs@31e3250d]" started-at="2022-03-04T13:30:27 EST" name="cleanUp" finished-at="2022-03-04T13:30:27 EST" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFrameworkProject.ContactUs@31e3250d]" started-at="2022-03-04T13:30:27 EST" name="teardown" finished-at="2022-03-04T13:30:27 EST" duration-ms="189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFrameworkProject.ContactUs -->
+    </test> <!-- Validating Contact Us -->
+    <test started-at="2022-03-04T13:29:56 EST" name="Validating Sign In" finished-at="2022-03-04T13:30:40 EST" duration-ms="44421">
+      <class name="AutomationFrameworkProject.SignIn">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationFrameworkProject.SignIn@743cb8e0]" started-at="2022-03-04T13:29:56 EST" name="initialize" finished-at="2022-03-04T13:29:58 EST" duration-ms="1949" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyForgotPassword()[pri:0, instance:AutomationFrameworkProject.SignIn@743cb8e0]" started-at="2022-03-04T13:29:58 EST" name="verifyForgotPassword" finished-at="2022-03-04T13:30:07 EST" duration-ms="9268" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyForgotPassword -->
+        <test-method signature="verifySignInAndOut()[pri:0, instance:AutomationFrameworkProject.SignIn@743cb8e0]" started-at="2022-03-04T13:30:07 EST" name="verifySignInAndOut" finished-at="2022-03-04T13:30:40 EST" duration-ms="33004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignInAndOut -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:AutomationFrameworkProject.SignIn@743cb8e0]" started-at="2022-03-04T13:30:40 EST" name="cleanUp" finished-at="2022-03-04T13:30:40 EST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFrameworkProject.SignIn@743cb8e0]" started-at="2022-03-04T13:30:40 EST" name="teardown" finished-at="2022-03-04T13:30:40 EST" duration-ms="128" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFrameworkProject.SignIn -->
+    </test> <!-- Validating Sign In -->
+    <test started-at="2022-03-04T13:29:56 EST" name="Validating Homepage" finished-at="2022-03-04T13:31:22 EST" duration-ms="86603">
+      <class name="AutomationFrameworkProject.HomePage">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:29:56 EST" name="initialize" finished-at="2022-03-04T13:29:58 EST" duration-ms="1994" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyFooterLinks()[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:29:58 EST" name="verifyFooterLinks" finished-at="2022-03-04T13:30:45 EST" duration-ms="47262" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinks -->
+        <test-method signature="verifySearchSuggestions(java.lang.String)[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:30:45 EST" name="verifySearchSuggestions" data-provider="getData" finished-at="2022-03-04T13:30:48 EST" duration-ms="2728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[printed]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSuggestions -->
+        <test-method signature="verifySearchSuggestions(java.lang.String)[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:30:48 EST" name="verifySearchSuggestions" data-provider="getData" finished-at="2022-03-04T13:30:55 EST" duration-ms="7304" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shirt]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSuggestions -->
+        <test-method signature="verifySearchSuggestions(java.lang.String)[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:30:55 EST" name="verifySearchSuggestions" data-provider="getData" finished-at="2022-03-04T13:31:08 EST" duration-ms="12865" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blouse]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSuggestions -->
+        <test-method signature="verifySearchSuggestions(java.lang.String)[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:31:08 EST" name="verifySearchSuggestions" data-provider="getData" finished-at="2022-03-04T13:31:22 EST" duration-ms="14308" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dress]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchSuggestions -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:31:22 EST" name="cleanUp" finished-at="2022-03-04T13:31:22 EST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFrameworkProject.HomePage@89c10b7]" started-at="2022-03-04T13:31:22 EST" name="teardown" finished-at="2022-03-04T13:31:22 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFrameworkProject.HomePage -->
+    </test> <!-- Validating Homepage -->
+    <test started-at="2022-03-04T13:29:56 EST" name="Validating Checkout" finished-at="2022-03-04T13:31:25 EST" duration-ms="89126">
+      <class name="AutomationFrameworkProject.Checkout">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:AutomationFrameworkProject.Checkout@2f058b8a]" started-at="2022-03-04T13:29:56 EST" name="initialize" finished-at="2022-03-04T13:29:58 EST" duration-ms="1957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="verifyCartContents()[pri:0, instance:AutomationFrameworkProject.Checkout@2f058b8a]" started-at="2022-03-04T13:29:58 EST" name="verifyCartContents" finished-at="2022-03-04T13:30:48 EST" duration-ms="50537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCartContents -->
+        <test-method signature="verifyCheckout()[pri:0, instance:AutomationFrameworkProject.Checkout@2f058b8a]" started-at="2022-03-04T13:30:48 EST" name="verifyCheckout" finished-at="2022-03-04T13:31:23 EST" depends-on-methods="AutomationFrameworkProject.Checkout.verifyCartContents" duration-ms="34962" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCheckout -->
+        <test-method signature="verifyOrderPlaced()[pri:0, instance:AutomationFrameworkProject.Checkout@2f058b8a]" started-at="2022-03-04T13:31:23 EST" name="verifyOrderPlaced" finished-at="2022-03-04T13:31:25 EST" depends-on-methods="AutomationFrameworkProject.Checkout.verifyCheckout" duration-ms="1435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderPlaced -->
+        <test-method is-config="true" signature="cleanUp()[pri:0, instance:AutomationFrameworkProject.Checkout@2f058b8a]" started-at="2022-03-04T13:31:25 EST" name="cleanUp" finished-at="2022-03-04T13:31:25 EST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:AutomationFrameworkProject.Checkout@2f058b8a]" started-at="2022-03-04T13:31:25 EST" name="teardown" finished-at="2022-03-04T13:31:25 EST" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- AutomationFrameworkProject.Checkout -->
+    </test> <!-- Validating Checkout -->
+  </suite> <!-- Suite -->
+</testng-results>

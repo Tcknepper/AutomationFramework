@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+  <test thread-count="5" name="Validating Contact Us">
+    <classes>
+      <class name="AutomationFrameworkProject.ContactUs"/>
+    </classes>
+  </test>
+  <test name="Validating Sign In">
+    <classes>
+      <class name="AutomationFrameworkProject.SignIn"/>
+    </classes>
+  </test>
+  <test name="Validating Homepage">
+    <classes>
+      <class name="AutomationFrameworkProject.HomePage"/>
+    </classes>
+  </test>
+  <test name="Validating Checkout">
+    <classes>
+      <class name="AutomationFrameworkProject.Checkout"/>
+    </classes>
+  </test>
+</suite>
