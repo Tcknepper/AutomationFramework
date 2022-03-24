@@ -1,6 +1,6 @@
 Automation Framework
 
-I created this project as a way to showcase my knowledge of Selenium, by creating a working framework 
+I created this project as a way to demonstrate my knowledge of Selenium by creating a working framework 
 that could be used to test a website for functionality. I have worked as an intern in the Software 
 Quality Assurance field and while it was very interesting to me I was more interested in the Automation
 side of QA. So, after obtaining a degree I set out to learn the necessary components to be qualified to perform 
