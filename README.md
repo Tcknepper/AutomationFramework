@@ -2,9 +2,9 @@ Automation Framework
 
 I created this project as a way to demonstrate my knowledge of Selenium by creating a working framework 
 that could be used to test a website for functionality. I have worked as an intern in the Software 
-Quality Assurance field and while it was very interesting to me I was more interested in the Automation
-side of QA. So, after obtaining a degree I set out to learn the necessary components to be qualified to perform 
-automation testing. 
+Quality Assurance field and while the manual side of testing was interesting to me, I was also very interested 
+in the automation side of QA. So, after obtaining a degree I set out to learn the necessary components to be qualified 
+to perform automation testing. 
 
 This project uses a dummy site for the tests, since I intend to use this on a resume. This made the most sense 
 since the website is not updated which eliminates the need to constantly maintain the framework for potential employers
