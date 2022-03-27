@@ -3,7 +3,7 @@ Automation Framework
 I created this project as a way to demonstrate my knowledge of Selenium by creating a working framework 
 that could be used to test a website for functionality. I have worked as an intern in the Software 
 Quality Assurance field and while the manual side of testing was interesting to me, I was also very interested 
-in the automation side of QA. So, after obtaining a degree I set out to learn the necessary components to be qualified 
+in the automation side of QA. After obtaining my degree I then set out to learn the necessary components to be qualified 
 to perform automation testing. 
 
 This project uses a dummy site for the tests, since I intend to use this on a resume. This made the most sense 
@@ -13,8 +13,8 @@ and eliminates the possibility of an update breaking my code and a potential emp
 The framework uses a page object model to simplify and improve the readability of the code. It also features a data.properties
 file that contains any needed values for the tests to make it easy to update the values in all tests at once. The file is 
 located in the resources package along with any other files that are needed to run the code, like the drivers. This makes it 
-so the framework can be simply downloaded with no need for changes or creating any files. It requires Java, Maven, and for it
-to ideally be setup on Jenkins, but it could be run without Jenkins.
+so the framework can be simply downloaded with no need for changes or creating any files. It requires Java, Maven, and ideally for it to 
+be setup on Jenkins, but it could be run without Jenkins.
 
 The TestNG xml file is configured to run the tests in parallel to reduce the execution time. Currently the framework is set up
 to be run through Jenkins, but it can also be run through the command prompt using Maven commands. It is set up to accept
